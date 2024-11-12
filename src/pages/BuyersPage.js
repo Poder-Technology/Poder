@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
-import NavBar from "../components/NavBar";
-import HeroSec from "../components/HeroSec";
-import OurNumbers from "../components/OurNumbers";
-import FeaturedStation from "../components/FeaturedStation";
-import AmazingFeatures from "../components/AmazingFeatures";
-import WhoServe from "../components/WhoServe";
-import TestemonialSec from "../components/TestemonialSec";
-import FAQSec from "../components/FAQSec";
-import ContactSec from "../components/ContactSec";
-import Footer from "../components/Footer";
-import CategorySec from "../components/CategorySec";
+import NavBar from "../Layout.js/NavBar";
+import HeroSec from "../reusable/HeroSec";
+import OurNumbers from "../reusable/OurNumbers";
+import FeaturedStation from "../reusable/FeaturedStation";
+import AmazingFeatures from "../reusable/AmazingFeatures";
+import WhoServe from "../reusable/WhoServe";
+import TestemonialSec from "../reusable/TestemonialSec";
+import FAQSec from "../reusable/FAQSec";
+import ContactSec from "../reusable/ContactSec";
+import Footer from "../Layout.js/Footer";
+import CategorySec from "../reusable/CategorySec";
 
 
 const BuyersPage = () => {
@@ -29,7 +29,12 @@ const BuyersPage = () => {
 
     <NavBar/>
     
-    <HeroSec/>
+    <HeroSec
+    whitetxt="Find"
+    yellowtxt="Fuel"
+    whitetxt2="Near You in Seconds!"
+    description="Search now and see everything you need to know about the nearest fuel stations without the usual hassle, traffic and endless queue"
+    />
 
     </div>
 
@@ -43,13 +48,6 @@ const BuyersPage = () => {
        <FeaturedStation/>
 
   {/* Amazing Features */}
- 
-  
- 
-
-  
-  
-  
 
   <section className=" py-2 lg:py-8 lg:px-10 lg:mx-6">
     <h2 className=" text-3xl font-semibold p-4 my-4">Explore our amazing Features</h2>

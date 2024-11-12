@@ -1,7 +1,9 @@
 import React from 'react'
 import { AiOutlineSearch } from 'react-icons/ai'
 
-const HeroSec = () => {
+
+
+const HeroSec = ({ whitetxt,yellowtxt, whitetxt2, description }) => {
   return (
     <div>
         {/* hero section */}
@@ -9,9 +11,9 @@ const HeroSec = () => {
 <section className="relative bg-cover bg-center h-screen">
   <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
     <h1 class="text-4xl md:text-5xl font-bold">
-      Find <span class="text-yellow-500">Fuel</span> Near You in Seconds!
+      {whitetxt} <span class="text-yellow-500">{yellowtxt}</span> {whitetxt2}
     </h1>
-    <p className="mt-4 text-lg text-center">Search now and see everything you need to know about the nearest fuel stations without the usual hassle, traffic and endless queue</p>
+    <p className="mt-4 text-lg text-center">{description}</p>
     <div className="mt-6 relative w-full max-w-5xl">
       <input
         type="text"

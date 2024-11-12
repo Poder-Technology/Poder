@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 import { AiOutlineRight } from 'react-icons/ai'
-import NavBar from "../components/NavBar";
-import StaffHero from "../components/StaffHero";
-import CategorySec from "../components/CategorySec";
-import OurNumbers from "../components/OurNumbers";
-import SaffRewardSec from "../components/SaffRewardSec";
-import AmazingFeatures from "../components/AmazingFeatures";
-import FlexCard from "../components/FlexCard";
-import FlexCard2 from "../components/FlexCard2";
-import WhoServe from '../components/WhoServe';
-import TestemonialSec from '../components/TestemonialSec';
-import FAQSec from '../components/FAQSec';
-import ContactSec from '../components/ContactSec';
-import Footer from '../components/Footer';
+import NavBar from "../Layout.js/NavBar";
+import StaffHero from "../reusable/StaffHero";
+import CategorySec from "../reusable/CategorySec";
+import OurNumbers from "../reusable/OurNumbers";
+import SaffRewardSec from "../reusable/SaffRewardSec";
+import AmazingFeatures from "../reusable/AmazingFeatures";
+import FlexCard from "../reusable/FlexCard";
+import FlexCard2 from "../reusable/FlexCard2";
+import WhoServe from '../reusable/WhoServe';
+import TestemonialSec from '../reusable/TestemonialSec';
+import FAQSec from '../reusable/FAQSec';
+import ContactSec from '../reusable/ContactSec';
+import Footer from '../Layout.js/Footer';
 
 const StaffPage = () => {
 
