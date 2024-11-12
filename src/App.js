@@ -1,10 +1,13 @@
 import './App.css';
-import BuyersPage from './components/BuyersPage';
+import BuyersPage from './pages/BuyersPage';
+import StaffPage from './pages/StaffPage';
 
 // src/App.js
 function App() {
+
   return (
-    <BuyersPage/>
+    // <BuyersPage/>
+    <StaffPage/>
   );
 }
 

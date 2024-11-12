@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         customBlue: '#30277F',
         C5C6C9: '#C5C6C9',
+        EEEFFF: '#EEEFFF',
       },
        maxWidth: {
         'custom': '546px',
