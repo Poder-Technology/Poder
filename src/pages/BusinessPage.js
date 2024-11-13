@@ -7,6 +7,11 @@ import AmazingFeatures from '../reusable/AmazingFeatures'
 import FeaturedStation from '../reusable/FeaturedStation'
 import FlexCard from '../reusable/FlexCard'
 import FlexCard2 from '../reusable/FlexCard2'
+import WhoServe from '../reusable/WhoServe'
+import TestemonialSec from '../reusable/TestemonialSec'
+import FAQSec from '../reusable/FAQSec'
+import ContactSec from '../reusable/ContactSec'
+import Footer from '../Layout.js/Footer'
 
 const BusinessPage = () => {
 
@@ -78,8 +83,65 @@ const BusinessPage = () => {
   description="Our platform links industrial operators to dependable fuel stations, ensuring a steady supply so you can focus on growth without interruptions."
 
 />
-    
 
+{/* How does Poder Work? */}
+<section className=" py-2 lg:py-8 lg:px-10 lg:mx-6">
+<h2 className=" text-3xl font-semibold p-4 my-4">How does Poder Work?</h2>
+
+<div className=" py-8 lg:flex lg:flex-row flex flex-col gap-5 px-4 w-full">
+
+<div className="flex lg:w-1/2 gap-3">
+<div className="z-10 "><img src='https://s3-alpha-sig.figma.com/img/3200/d22c/1afeac2fbbc2d24241789e23d765c571?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EgLoy7JV~ecg3UNhSpr0TZVWUumNmNcMC~7Ig-faaM~RqaCmpLP~-soMLFGkBO58bWURwLQNoqPE3Sl8~yeeEZyc-IAib5LniAxWQn~Wo89UtFp0PQR~Hy4Feg9RzZ3yuxXbzAxO2zJ2pfoR5qFlVCTqT4gmdAz72eDcO-AhcBT3SWHI2nLJTcIUwhkHh2YL9DAlZ65gdqysQtBfr98aG36M0GKincgchSdx-LunlXN2tc7QVc6lel0p67HkVRpMeyqPIzggcO26Q3TU7RxIPFFHGAUEJLZcnIhcMY3Qi0gIlZH346z8uqbAZw9982hsMua4Lt5dreK6rMt~gEjzvQ__' alt="" className=" pt-3 w-36 object-cover" /></div>
+    <div className="flex flex-col gap-5 pr-20">
+    <h3 className=" text-l font-medium"><span>Step 1:</span> Find Nearby Stations</h3>
+    <p>Use real-time location-based data to find the nearest stations.</p>
+   
+    </div>
+</div>
+
+<div className="flex lg:w-1/2 gap-3">
+<div className="z-10 "><img src="https://s3-alpha-sig.figma.com/img/f31a/a7ba/3e5d4c80c2e613ae2af6a52815a4b687?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O65--dMae3LSc66NZU1kAkybE-6~8duX7c-oO72Sqinar6SESsPqwQ04tIZdYUDVf14sEbcp4o79AbLHgCLxPVv5pld2MN1ADsHfuh32kzP3p8sITUS07uJY8kRtjvxPj92Nc1eZ2-DUwNW7~yX7m1grwxBgl1UcWGxZENu-P2sFjpU0Q5zkVdQS1vwjYDdyCi3BbPFgmSBYPY-scYWVgFSn6NHEHyT-nz0-0pWuz7a5Fb0SCtkX9X99YA2efO2L1BqPy5UZeivnhSNGSQcTZVBl2lb0lgBFZFlEQnW4b-hVMX3AYX0weLYjmIII5Jkftu7-yKRvlIJsjicoVye6sA__" alt="" className=" pt-3 w-36 object-cover" /></div>
+    <div className="flex flex-col gap-5 pr-20">
+    <h3 className=" text-l font-medium"><span>Step 2:</span>Compare Prices and Fuel Types</h3>
+    <p>See fuel prices, fuel types at a glance and pick the best option for your need.</p>
+    </div>
+</div>
+</div>
+
+<div className=" py-8 lg:flex lg:flex-row flex flex-col gap-5 px-4 w-full">
+
+<div className="flex lg:w-1/2 gap-3">
+<div className="z-10 "><img src='https://s3-alpha-sig.figma.com/img/17b5/21a3/360c4aad5a732e2f28409c2ebe79dde1?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nT0gOAHbcSxZxOi8fcc0nA6RS0uWwcvn7aqvVh6NO7j9szRiVe3ZoncwKGbJqYqRJeqbYfEekJKNHeCVMSOvHcxL6nfLGKFoHvaJUdVJMNrpNcEtqAqymPE57oeV4~uVJ416fsJirKstjW3rts1dRabAv3mOWTZj5nhC6vhQkxEP3AL-TuWWJ0fH1HApcsDAqv0ngvTR~RL7IcFchI7tBCO5nnQft3Mu98F56N7Q92Mla5eawzoHjhxX7tq8-T4L7HCvz8akk81fZiNVNtuTnGK1085TjJjTUgz6Gb-WArQ04tvMJLJofXrltWbfQYVxHxZiCWfYTx6q0ljMi8qZMA__' alt="" className=" pt-3 w-36 object-cover" /></div>
+    <div className="flex flex-col gap-5 pr-20">
+    <h3 className=" text-l font-medium"><span>Step 1:</span> Find Nearby Stations</h3>
+    <p>Use real-time location-based data to find the nearest stations.</p>
+   
+    </div>
+</div>
+
+<div className="flex lg:w-1/2 gap-3">
+<div className="z-10 "><img src="https://s3-alpha-sig.figma.com/img/eb0c/6ec8/9ec9306d30448c2ef735a12a1b60ad2c?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J6~dnNxpn9hMip2UVSHrh6prQDX-lPcUDfwtDwh6UW7q5tSy86p6s8kW0TqGGzfXm~~BQjJYuFjfuleh9QmZr0SsXckLdGZa~6Kv4sDNvi6c0haxWGThH~3iVuLl~HdzqXUMBDlJzZRqpXBEWYgEjHyKrP~HWqyU4XJD4v2bCvIpUX~hL2O6oeI5N2P0AM6BxZnEWlMiRqMZbtv2vN8ovPxvjeYlJ3ieSA~g0e6Z29t8YDv7a52pnTAP-ZroeB00aNK1R03zP2EEjZxf1iq1jAd85pzaNvelVRgvTyA0xYf7fE2PnjB5U0o16S35ExxWJ3MzkPRb5LnBJuIUmbMUSQ__" alt="" className=" pt-3 w-36 object-cover" /></div>
+    <div className="flex flex-col gap-5 pr-20">
+    <h3 className=" text-l font-medium"><span>Step 2:</span>Compare Prices and Fuel Types</h3>
+    <p>See fuel prices, fuel types at a glance and pick the best option for your need.</p>
+    </div>
+</div>
+</div>
+
+</section>
+    
+    {/* WhoServe section */}
+    <WhoServe/>
+
+    {/* Testemonial */}
+    <TestemonialSec/>
+    {/* FAQ <section */}
+    <FAQSec/>
+
+    {/* contact sec */}
+    <ContactSec/>
+
+    <Footer/>
     </div>
   )
 }
