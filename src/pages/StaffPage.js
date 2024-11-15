@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineRight } from 'react-icons/ai'
-import NavBar from "../Layout.js/NavBar";
+import NavBar from "../Layout/NavBar";
 import StaffHero from "../reusable/StaffHero";
 import CategorySec from "../reusable/CategorySec";
 import OurNumbers from "../reusable/OurNumbers";
@@ -12,7 +12,7 @@ import WhoServe from '../reusable/WhoServe';
 import TestemonialSec from '../reusable/TestemonialSec';
 import FAQSec from '../reusable/FAQSec';
 import ContactSec from '../reusable/ContactSec';
-import Footer from '../Layout.js/Footer';
+import Footer from '../Layout/Footer';
 
 const StaffPage = () => {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../Layout.js/NavBar'
+import NavBar from '../Layout/NavBar'
 import HeroSec from '../reusable/HeroSec'
 import OurNumbers from '../reusable/OurNumbers'
 import CategorySec from '../reusable/CategorySec'
@@ -11,7 +11,7 @@ import WhoServe from '../reusable/WhoServe'
 import TestemonialSec from '../reusable/TestemonialSec'
 import FAQSec from '../reusable/FAQSec'
 import ContactSec from '../reusable/ContactSec'
-import Footer from '../Layout.js/Footer'
+import Footer from '../Layout/Footer'
 
 const BusinessPage = () => {
 
@@ -24,7 +24,7 @@ const BusinessPage = () => {
 
     
      {/* Dark Overlay */}
-     <div className="absolute inset-0 bg-black opacity-60"></div>\
+     <div className="absolute inset-0 bg-black opacity-60"></div>
 
      <NavBar/>
     

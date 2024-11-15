@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NavBar from "../Layout.js/NavBar";
+import NavBar from "../Layout/NavBar";
 import HeroSec from "../reusable/HeroSec";
 import OurNumbers from "../reusable/OurNumbers";
 import FeaturedStation from "../reusable/FeaturedStation";
@@ -8,7 +8,7 @@ import WhoServe from "../reusable/WhoServe";
 import TestemonialSec from "../reusable/TestemonialSec";
 import FAQSec from "../reusable/FAQSec";
 import ContactSec from "../reusable/ContactSec";
-import Footer from "../Layout.js/Footer";
+import Footer from "../Layout/Footer";
 import CategorySec from "../reusable/CategorySec";
 
 

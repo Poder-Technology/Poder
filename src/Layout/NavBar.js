@@ -1,10 +1,20 @@
 import React, { useState } from 'react'
 import { FaTimes } from "react-icons/fa"; 
 import { AiOutlineBars } from "react-icons/ai"; 
+import { Link, useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => setIsOpen(!isOpen);
+
+    const navigate = useNavigate();
+
+    const handleNavigation = (event) => {
+      const selectedValue = event.target.value;
+      if (selectedValue) {
+        navigate(selectedValue);
+      }
+    };
 
   return (
     <div>
@@ -25,11 +35,18 @@ const NavBar = () => {
 
     {/* Desktop Dropdown */}
     <div className="hidden md:block">
-        <select className="p-2 border border-gray-300 rounded-md text-blue-700 bg-white">
-            <option>Buyers</option>
-            <option>Station Staff</option>
-            <option>Business</option>
-        </select>
+      <select
+        onChange={handleNavigation}
+        className="p-2 border border-gray-300 rounded-md text-blue-700 bg-white"
+        defaultValue=""
+      >
+        <option value="" disabled>
+          Select an option
+        </option>
+        <option value="/">Buyers</option>
+        <option value="/staff">Station Staff</option>
+        <option value="/business">Business</option>
+      </select>
     </div>
 
     {/* Mobile Hamburger Icon */}
