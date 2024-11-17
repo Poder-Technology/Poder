@@ -20,6 +20,9 @@ module.exports = {
         'custom': '546px',
         'custom5': '500px',
       },
+      fontFamily: {
+        unbounded: ['"Unbounded"', 'Arial', 'sans-serif'],
+      },
     },
   },
   plugins: [],

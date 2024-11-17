@@ -40,9 +40,6 @@ const NavBar = () => {
         className="p-2 border border-gray-300 rounded-md text-blue-700 bg-white"
         defaultValue=""
       >
-        <option value="" disabled>
-          Select an option
-        </option>
         <option value="/">Buyers</option>
         <option value="/staff">Station Staff</option>
         <option value="/business">Business</option>
@@ -57,23 +54,30 @@ const NavBar = () => {
 
 {/* Mobile Full-Screen Menu */}
 {isOpen && (
-    <div className="fixed inset-0 bg-indigo-900 flex flex-col px-6 justify-center text-xl text-white z-20 pt-20">
+    <div className="fixed inset-0 bg-indigo-900 flex flex-col px-6 justify-center text-xl text-white z-20 pt-8">
 
     <div className="flex flex-col gap-5 p-3 border-b pb-12">
-    <div className="flex gap-3 items-center ">
+    
+<Link to="/" >
+<div className="flex gap-3 items-center ">
        <img src={`${process.env.PUBLIC_URL}/nav/Vector.png`} alt="Poder Logo" className="h-5 max-w-24 " />
-       <a href="#buyers" onClick={toggleMenu} className="hover:text-gray-300">Buyers</a>
+       <a href="#buyers" onClick={toggleMenu}  className="hover:text-gray-300">Buyers</a>
+       
        </div>
-
+</Link>
+       <Link to="/staff">
        <div className="flex gap-3 items-center ">
        <img src={`${process.env.PUBLIC_URL}/nav/staff.png`} alt="Poder Logo" className="h-5 max-w-24 " />
        <a href="#station-staff" onClick={toggleMenu} className="hover:text-gray-300">Station Staff</a>
        </div>
+       </Link>
 
-       <div className="flex gap-3 items-center ">
+      <Link to="/business">
+      <div className="flex gap-3 items-center ">
        <img src={`${process.env.PUBLIC_URL}/nav/bussines.png`} alt="Poder Logo" className="h-5 max-w-24 " />
        <a href="#business" onClick={toggleMenu} className="hover:text-gray-300">Business</a>
        </div>
+      </Link>
 
     </div>
 

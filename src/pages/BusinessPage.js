@@ -16,7 +16,7 @@ import Footer from '../Layout/Footer'
 const BusinessPage = () => {
 
   return (
-    <div>
+    <div className=' font-unbounded'>
            <div  className="h-screen bg-cover bg-center p-6 px-10" 
     style={{
       backgroundImage: `url('https://s3-alpha-sig.figma.com/img/d6b7/2441/ba05a99396194d1aa1395b8e84524a3c?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bk2-oPLoCX-jcAHL5MeeQaGGbbcC6L4vw-8EjZBfJCT71hl~KTbLN1oAZKQMR4DpiWhDgAEVIxclShVB6ZgABfjAJbryLGR5DDz7Y9SkYnZpQlLdimEdBDOcP1M8oAsiYwggjMfiDojxlFYrf6ButtFz4WD6OlaFRd8wxxvV1Ga~CzRi5xPUzbNwvQCVn-TX9gQQD-TCGEaRwoMRW6FDkSfDnJomMXneZ8shuZIH51QMr08Js2hVOR1LHB4nRrzg~IlZzzNbmKhUlsHXwpJLCLElrT~lSoQT5OTdvTM4fAU9GRzyZaVkXhgagvnhxKLpP3nQ6xhcjAPaOEt3duECZg__')`,

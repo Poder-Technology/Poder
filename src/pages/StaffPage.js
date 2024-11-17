@@ -18,7 +18,7 @@ const StaffPage = () => {
 
 
   return (
-    <div>
+    <div className=' font-unbounded'>
     <div  className="h-screen bg-cover bg-center p-6 px-10" 
 style={{
   backgroundImage: `url('https://s3-alpha-sig.figma.com/img/b528/a209/478d12c14d7f910d9ca87912c8a60964?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fl0qNG6T2IGb-fnFYE6NkR417uhHeLxMYnu4JzNxr-phXVs9SGaGqsJ75ou~mgfSE4rXv4hjVLIySCs1COWTBG5x8D3hNoOVNXxdw4UJdwbMO7a6~vUNEY5cKi6qE2oc7zUFEj1K3ZmoeSGkOKtt8zncTfzXGB1chijSfGLNfktySMCVibkShlj~-nXevRCv4s-XbmzSz3P0xZM7hLz3ZcSCUo0RWw6Dli5GDvShzPSdSn2S0Ar7ZpVW6JDvDLAkEznVLeSZUlsHFaTIX-4iyQq9XR3c8mSYGNg4ZaIZQiT78l8rx0sivllugC8oiaRnia3SP-SD6lCjleXx3nEFUg__')`,

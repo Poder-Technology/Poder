@@ -9,7 +9,7 @@ const AmazingFeatures = ({image1,title1, description1, image2, title2,descriptio
     
     <div className=" py-8 lg:flex lg:flex-row flex flex-col gap-5 px-4 w-full">
 
-        <div className="flex lg:w-1/2 gap-3">
+        <div className="flex lg:w-1/2 gap-3 mb-4">
         <div className="z-10 "><img src={image1} alt="" className=" pt-3 object-cover" /></div>
             <div className="flex flex-col gap-5 pr-20">
             <h3 className=" text-l font-medium">{title1}</h3>
