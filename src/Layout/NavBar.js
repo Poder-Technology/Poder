@@ -54,7 +54,7 @@ const NavBar = () => {
 
 {/* Mobile Full-Screen Menu */}
 {isOpen && (
-    <div className="fixed inset-0 bg-indigo-400 flex flex-col px-6 justify-center text-xl text-white z-20 pt-8">
+    <div className="fixed inset-0 bg-indigo-900 flex flex-col px-6 justify-center text-xl text-white z-20 pt-8">
 
     <div className="flex flex-col gap-5 p-3 border-b pb-12">
     
@@ -118,10 +118,12 @@ const NavBar = () => {
 </div>        
 
     </div>
-)}
-
-    </div>
-  )
+)
 }
 
+
+
+    </div>
+    )}
+ 
 export default NavBar
